@@ -20,6 +20,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 </head>
 
@@ -50,10 +51,10 @@
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          <a class="nav-link js-scroll-trigger" href="#interests">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Conferences</a>
+          <a class="nav-link js-scroll-trigger" href="#awards">Interests & Conferences</a>
         </li>
       </ul>
     </div>
@@ -69,7 +70,13 @@
         <div class="subheading mb-5">Orange County, CA · (714) 657-2247 ·
           <a href="mailto:name@email.com">Nikki.Ng.Nguyen@gmail.com</a>
         </div>
-        <p class="lead mb-5">I am new to the industry but that doesn't mean I can't learn on this journey. There's always going to be a skillset I might not have but I can always try my best to gain it.</p>
+        <p class="lead mb-5">People change everyday, for better or for worse. These 5 events changed me for the better:</p>
+          <p>1. Becoming Key Club Treasurer in high school</p>
+          <p>2. Working in fast-food and retail</p>
+          <p>3. Collaborating with other women at Google ExploreCSR</p>
+          <p>4. Founding Women in Computing (WiC) on campus</p>
+          <p>5. Getting my first internship in the industry!</p>
+          <br></br>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/nikkingnguyen/">
             <i class="fab fa-linkedin-in"></i>
@@ -186,10 +193,10 @@
             <i class="fab fa-python"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-csharp"></i>
+            <i class="devicon-cplusplus-plain"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-cplusplus"></i>
+            <i class="devicon-csharp-plain"></i>
           </li>
           <li class="list-inline-item">
             <i class="fab fa-java"></i>
@@ -198,53 +205,80 @@
             <i class="fab fa-react"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
+            <i class="devicon-javascript-plain"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-atom"></i>
+            <i class="devicon-html5-plain"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-visualstudio"></i>
+            <i class="devicon-css3-plain"></i>
           </li>
           <li class="list-inline-item">
             <i class="fab fa-github"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-apple"></i>
+            <i class="devicon-visualstudio-plain"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-windows10"></i>
+            <i class="devicon-atom-original"></i>
+          </li>
+        </ul>
+        <div class="subheading mb-3">Operating Systems</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="devicon-apple-original"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-linux"></i>
+            <i class="fab fa-windows"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-linux-plain"></i>
           </li>
         </ul>
 
-        <div class="subheading mb-3">Workflow</div>
+        <div class="subheading mb-3">Professional</div>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
+            Creative Problem Solving</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
+            Willingness to Learn</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
+            Open to Diversifying Skillset</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
+            Conflict Resolution</li>
         </ul>
       </div>
+
     </section>
 
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        <h2 class="mb-5">Projects</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Pi-Hole: A Black Hole for Internet Advertisements</h3>
+            <p>Implemented a network-wide ad blocker using a Raspberry Pi 3 B to prevent a DNS query for advertisement/malware domain from returning the correct response by rerouting network DNS to the Pi-Hole static IP. The device handles all DNS requests generated from a network.</p>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">ChargeMe Mobile Application</h3>
+            <div>Designed and developed a bill splitting mobile application using React Native and Expo/XCode for iOS. Implemented user login/account creation and assisted in structuring the realtime Firebase database.</div>
+            <p>Nominated for the CSULB Best Project Competition 2019 by faculty.</p>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">HTTPS Server &amp; RSA Ransomware</h3>
+            <p>Built and Amazon EC2 instance with NGINX as a reverse proxy server. Used Let's Encrypt to set up HTTPS certification by testing the TLS configuration with SSL Labs. As a second part to the project, I scripted RSA ransomware in Python that generates encrypted files in a directory.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -252,35 +286,14 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Mobile Web Specialist - Google Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
-        </ul>
+        <h2 class="mb-5">Interests</h2>
+        <p>When taking a break from work and studying, I usually spend my time playing video games or trying out new restaurants! I am really into RTS games and Super Smash Bros. I try to play a few online games every night to get better and learn my main characters to play more fluidly.</p>
+        <p class="mb-0">I'm not always playing video games though! During my free days, I like to try new restaurants because I appreciate the level of detail chefs put into their art. That dedication is what I strive to have in my own work.</p>
+        <br></br>
+        <h2 class="mb-5">Conferences</h2>
+        <p>●	D. Bursch, P. Sedighian, <b>N. Nguyen</b>, P. Ayala, 2019, “Constructing a 3D Dual Diffusion System to Investigate Cell Migration”, Annual Biomedical Research Conference for Minority Students (ABRCMS)</p>
+        <p>●	P. Sedighian, D. Bursch, <b>N. Nguyen</b>, D. Stout, 2019, “Designing a Dual Gradient Diffusion System to Investigate Chemotaxis in a 3D Collagen Matrix”, Biomedical Engineering Society Conference (BMES)</p>
+        <p>●	P. Sedighian, D. Bursch, T. Bulushi, <b>N. Nguyen</b>, S. Ngo, D. Stout, P. Ayala, 2019, “Investigation of neutrophil migration in a dual gradient diffusion model in a COPD environment”, 9th International Congress on Industrial and Applied Mathematics (ICIAM)</p>
       </div>
     </section>
 
